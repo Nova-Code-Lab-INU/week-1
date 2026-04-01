@@ -28,10 +28,10 @@ print("=========================================================================
 
 print(f"\tName:\t\t\t{Full_name} \t type: {type(Full_name)}")                      #display full name
 print(f"\tAge:\t\t\t{age} \t\t\t\t type: {type(age)}")                             #display age
-print(f"\tID:\t\t\t{ID} \t\t\t\t type: {type(ID)}")                               #display ID
-print(f"\tpotintial score:\t{potintial_score} \t\t type: {type(potintial_score)}")         #display score
+print(f"\tID:\t\t\t{ID} \t\t\t\t type: {type(ID)}")                                #display ID
+print(f"\tpotintial score:\t{potintial_score} \t\t type: {type(potintial_score)}") #display score
 if ID%2==0:                                            
-    print("\tYour lab seat is:       even")             #display even/odd
+    print("\tYour lab seat is:       even")                                        #display even/odd
 else :
     print("\tYour lab seat is:       odd")
 print("\n===============================================================================================")
