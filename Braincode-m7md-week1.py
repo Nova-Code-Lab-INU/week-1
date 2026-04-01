@@ -32,16 +32,16 @@ else:
 
 #Professional System Output (The Report)
 
-print("************************************************")
+print("\n************************************************\n")
 print(type(clean_name))
 print(type(age))
 print(type(score))
 
 #Delivery & Cloud Deployment
 
-print("************************************************")
-print("Name: ",{clean_name})
-print("Team: ",{clean_team})
-print("Age: ",{age})
-print("User ID: ",{ID_user},{ID_type})
+print("\n************************************************\n")
+print(f"Name:\t ",{clean_name})
+print(f"Team:\t ",{clean_team})
+print(f"Age:\t ",{age})
+print(f"User ID:\t ",{ID_user},{ID_type})
 
